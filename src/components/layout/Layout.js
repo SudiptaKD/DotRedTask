@@ -10,7 +10,7 @@ export const Layout = () => {
     <div>
         <Header/>
         <Routes>
-            <Route path="/dashboard" element={<Dashboard/>} />
+            <Route index path="/" element={<Dashboard/>} />
             <Route path="/inward" element={<Inward/>} />
         </Routes>
     </div>
