@@ -11,7 +11,7 @@ import WMS from '../icons/wms.svg'
 export default function Header() {
   return (
     <>
-      <Container style={{'min-heigt':'300px', 'backgroundColor':'lightBlue',
+      <Container style={{'min-heigt':'300px',
          'padding':'20px 50px', 'max-width':'100%' }}>
         <Row>
           <Col className='text-success d-flex justify-content-start' lg={3}>
