@@ -27,6 +27,7 @@ export const Inward = () => {
       setIfFound(false)
     }
   };
+
   useEffect(()=> {
     setFilterData(filterData)
     console.log(filterData)
@@ -39,7 +40,7 @@ export const Inward = () => {
          <h5>Record Inward Orders</h5>
       </header>
 
-      <div className='d-flex flex-column justify-content center mt-3' style={{'width':'25%'}}>
+      <div className='d-flex flex-column justify-content-center mt-3' style={{'width':'25%'}}>
         <h6>Scan/Enter Run Sheet Number</h6>
         <form className="input-group mb-2">
           <input type="text" className="form-control" value={text}
@@ -50,14 +51,16 @@ export const Inward = () => {
             Scan
         </button>
       </div>
-      {ifFound && (
+      {ifFound && filterData._id && (
         <>
           <Details Data={filterData} />
           <OrderList Data={filterData} />
         </>
       )}
       {!ifFound && 
-      <h2>This Sheet Number doesn't exists in Database</h2>
+        <h2 className='d-flex  justify-content-center  mt-10' style={{'marginTop':'80px'}} >
+          This Sheet Number doesn't exists in Database
+        </h2>
       }
     </Container>
   )
