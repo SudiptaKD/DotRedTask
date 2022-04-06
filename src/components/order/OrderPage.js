@@ -18,6 +18,7 @@ const OrderPage = ({data}) => {
 
   const handleFilter = (start,end, location, orderType) => {
     if (start === '' && end === '' && location ==='' && orderType ==='' ) return
+    // eslint-disable-next-line array-callback-return
     const filterData = data.filter((item) => {
       if ((start ? dayjs(item.registered).isSameOrAfter(dayjs(start)): true) &&
         (end ? dayjs(item.registered).isSameOrBefore(dayjs(end)): true ) &&

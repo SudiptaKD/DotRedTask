@@ -7,6 +7,7 @@ const CardValue = ({value}) => {
     let totalValue = 0;
     let avgValue= 0;
     (function(){
+        // eslint-disable-next-line array-callback-return
         value.map(item => {
             totalOrders = totalOrders + item.age;
             totalValue = totalValue + item.balance 
