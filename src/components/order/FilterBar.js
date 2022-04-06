@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SendIcon from '../icons/send.svg';
 
 const FilterBar = ({orderTypes, handleFilter}) => {
     const [start, setStart] = useState('');
@@ -37,7 +38,6 @@ const FilterBar = ({orderTypes, handleFilter}) => {
             type="text"
             className="form-control"
             id="location"
-            // value={filters.location}
             onChange={(e)=> setLocation(e.target.value)}
             />
         </div>
@@ -57,7 +57,11 @@ const FilterBar = ({orderTypes, handleFilter}) => {
           </select>
         </div>
         <div className="col-2">
-          <button type="submit" onClick={handleSubmit}>Submit</button>
+          <button type="submit" className="btn" onClick={handleSubmit}
+              style={{'color': 'white', 'marginTop':'23px', 'backgroundColor':'#0d6efd'}} >
+              <img src={SendIcon} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
+              {' '} Submit
+            </button>
         </div>
     </div>
   )

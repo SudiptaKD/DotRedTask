@@ -25,8 +25,6 @@ const OrderPage = ({data}) => {
         return item;
       }
     });
-      
-
     setFilteredData(filterData);
   }
 
