@@ -2,6 +2,7 @@ import dayjs from 'dayjs'
 import React, { useState } from 'react'
 import CardValue from './CardValue'
 import FilterBar from './FilterBar'
+import { GridData } from './GridData'
 
 const OrderPage = ({data}) => {
   const [filteredData, setFilteredData] = useState([])
@@ -38,10 +39,12 @@ const OrderPage = ({data}) => {
         orderTypes={generateOrderTypeForDropdown()} 
         handleFilter={handleFilter}
         />
+      {(filteredData.length >= 1) &&
       <CardValue value={filteredData} />
-      {filteredData.map(data =>{
-        return <h1>{data.name}</h1>
-      })}
+      }
+      {(filteredData.length >= 1) &&
+      <GridData value={filteredData} />
+      }
     </div>  
   )
 }
