@@ -82,20 +82,20 @@ export const Collection = ({Data}) => {
             </thead>
             <tbody style={{'maxHeight':'100px','overflowY':'scroll'}} className="scrollspy-example" tabindex="0">
                 {Data.map(data => {
-                    return <tr>
-                        <th scope="row">{data._id}</th>
-                        <td>{data.name}</td>
-                        <td>{data.address}</td>
-                        <td>{data.company}</td>
-                        <td>{data.age}</td>
-                        <td>{data._id}</td>
-                        <td>{data.balance}</td>
-                        <td>{data.latitude}</td>
-                        <td>{data.longitude}</td>
-                        <td>Out Of Delivery</td>
-                        <td></td>
-                        <td>True</td>
-                    </tr>
+                    return  <tr key={data._id}>
+                                <th scope="row">{data._id}</th>
+                                <td>{data.name}</td>
+                                <td>{data.address}</td>
+                                <td>{data.company}</td>
+                                <td>{data.age}</td>
+                                <td>{data._id}</td>
+                                <td>{data.balance}</td>
+                                <td>{data.latitude}</td>
+                                <td>{data.longitude}</td> 
+                                <td>Out Of Delivery</td>
+                                <td></td>
+                                <td>True</td>
+                            </tr>
                 })}
             </tbody>
         </table>

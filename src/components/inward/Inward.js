@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { data } from '../data/inward';
 import { Details } from './Details';
 import { OrderList } from './OrderList';
 
-export const Inward = () => {
+export const Inward = ({data}) => {
 
   const [text, setText] = useState('');
   const [filterData, setFilterData] = useState([])

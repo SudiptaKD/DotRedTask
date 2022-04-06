@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export const Details = ({Data}) => {
+
   return (
     <div>
         <header className='d-flex align-items-center mt-2' style={{'width':'100%', 'backgroundColor':'grey',
