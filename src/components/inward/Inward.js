@@ -54,7 +54,7 @@ export const Inward = () => {
       {ifFound && filterData._id && (
         <>
           <Details Data={filterData} />
-          <OrderList Data={filterData} />
+          <OrderList Data={data} />
         </>
       )}
       {!ifFound && 

@@ -17,7 +17,7 @@ export const Details = ({Data}) => {
             <div className="col d-flex flex-column gap-1">
                 <p><strong>Run Sheet Date :</strong>{' '}{Data.registered}</p>
                 <p><strong>Location :</strong> {' '}{Data.company}</p>
-                <p><strong>Sheet Status :</strong> {' '}Active</p>
+                <p><strong>Sheet Status :</strong> {' '}Out of Delivery</p>
                 <p><strong>Undelivered Order Amount :</strong> {' '}{Data.index}</p>
             </div>
             <div className="col d-flex flex-column gap-1">

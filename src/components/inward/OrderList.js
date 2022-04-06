@@ -1,4 +1,5 @@
 import React from 'react'
+import DownloadIcon from '../icons/download.svg'
 import { Collection } from './Collection'
 
 export const OrderList = ({Data}) => {
@@ -18,7 +19,14 @@ export const OrderList = ({Data}) => {
             Scan
         </button>
       </div>
-      <Collection/>
+      <Collection Data={Data}/>
+      <div className='mt-2 mb-2' style={{'marginLeft':'10px'}}>
+        <button type="submit" className="btn" 
+           style={{'color':'black', 'marginRight':'10px', 'backgroundColor':'lightgray'}} >
+             <img src={DownloadIcon} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
+              {' '} Save
+         </button>
+      </div>
     </div>
   )
 }
