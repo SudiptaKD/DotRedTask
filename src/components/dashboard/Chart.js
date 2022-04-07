@@ -1,8 +1,57 @@
-import React from 'react'
+import {
+  BarElement, CategoryScale, Chart as ChartJS, Legend, LinearScale, Title,
+  Tooltip
+} from 'chart.js';
+import React from 'react';
+import { Bar } from 'react-chartjs-2';
 
-const Chart = () => {
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+export const options = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'top',
+    },
+    title: {
+      display: true,
+      text: 'Chart.js Bar Chart',
+    },
+  },
+};
+
+
+const Chart = ({value}) => {
+
+  const labels = ['Asif', 'Mamun', 'Sudipta','Sadeq', 'Shahed'];
+
+  const data = {
+  labels,
+  datasets: [
+    {
+      label: 'Dataset 1',
+      data: labels.map(() => 50),
+      backgroundColor: 'rgba(255, 99, 132, 0.5)',
+    },
+    {
+      label: 'Dataset 2',
+      data: labels.map(() => 10),
+      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+    },
+  ],
+};
+
   return (
-    <div>Chart</div>
+    <div>
+      <Bar options={options} data={data} />
+    </div>
   )
 }
 
