@@ -1,5 +1,6 @@
 import React from 'react'
 import SendIcon from '../icons/send.svg'
+import Delivery from './Delivery'
 import FilterBar from './FilterBar'
 
 export const Dashboard = ({data}) => {
@@ -43,6 +44,9 @@ export const Dashboard = ({data}) => {
             </div>
           </div>
         </div> 
+      </div>
+      <div className='mt-2'>
+        <Delivery/>
       </div>
     </div>  
   )
