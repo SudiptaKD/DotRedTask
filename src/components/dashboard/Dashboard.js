@@ -50,10 +50,10 @@ export const Dashboard = ({data}) => {
       <div className='mt-2'>
         <Delivery/>
       </div>
-      <div className='mt-2'>
+      <div className='mt-3'>
         <Chart value={data}/>
       </div>
-      <div className='mt-2'>
+      <div className='mt-4'>
         <Table value={data}/>
       </div>
     </div>  
