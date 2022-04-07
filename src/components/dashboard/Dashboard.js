@@ -2,6 +2,7 @@ import React from 'react'
 import SendIcon from '../icons/send.svg'
 import Delivery from './Delivery'
 import FilterBar from './FilterBar'
+import { Table } from './Table'
 
 export const Dashboard = ({data}) => {
 
@@ -29,24 +30,27 @@ export const Dashboard = ({data}) => {
         <div className="col-6">
           <div className='d-flex flex-row mt-2 mb-2' style={{'marginLeft':'10px'}}>
             <button type="submit" className="btn btn-primary" 
-              style={{'color':'white', 'marginRight':'10px', 'height':'40px'}} >
+              style={{'color':'white', 'marginRight':'10px', 'height':'35px'}} >
               <img src={SendIcon} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
               {' '} Submit
             </button>
             <button type="submit" className="btn btn-warning" 
-              style={{'color':'black', 'marginRight':'10px', 'height':'40px'}} >
+              style={{'color':'black', 'marginRight':'10px', 'height':'35px'}} >
                 <img src={SendIcon} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
                 {' '} Download Report
             </button>
             <div>
               <input className="form-control"  type="search" placeholder="Search order details"
-                  style={{'color':'white', 'height':'40px', 'backgroundColor':'lightgreen'}}  />
+                  style={{'color':'white', 'height':'35px', 'backgroundColor':'lightgreen'}}  />
             </div>
           </div>
         </div> 
       </div>
       <div className='mt-2'>
         <Delivery/>
+      </div>
+      <div className='mt-2'>
+        <Table value={data}/>
       </div>
     </div>  
   )
