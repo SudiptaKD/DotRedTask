@@ -2,6 +2,7 @@ import React from 'react'
 import SendIcon from '../icons/send.svg'
 import Chart from './Chart'
 import Delivery from './Delivery'
+import DonutChart from './DonutChart'
 import FilterBar from './FilterBar'
 import { Table } from './Table'
 
@@ -52,6 +53,30 @@ export const Dashboard = ({data}) => {
       </div>
       <div className='mt-3'>
         <Chart value={data}/>
+      </div>
+      <div className='mt-3'>
+        <div className='row'>
+          <div className='col-6'>
+            <header className='d-flex align-items-center' style={{'width':'100%', 'backgroundColor':'lightcoral',
+                'height':'45px', 'borderRadius':'4px', 'color': 'white', 'paddingLeft':'20px'}}>
+                <h5>Overall Task Status</h5>
+            </header>
+            <div style={{ 'border': '1px solid  rgba(0, 0, 0, 0.08)','backgroundColor':'rgba(0, 0, 0, 0.03)',
+              'minHeight':'300px', 'minWidth':'300px', 'marginTop':'5px'}} >
+                  <DonutChart value={data[0]} />
+            </div>
+          </div>
+          <div className='col-6'>
+            <header className='d-flex align-items-center' style={{'width':'100%', 'backgroundColor':'lightsalmon',
+                'height':'45px', 'borderRadius':'4px', 'color': 'white', 'paddingLeft':'20px'}}>
+                <h5>Performance Status</h5>
+            </header>
+            <div style={{ 'border': '1px solid  rgba(0, 0, 0, 0.08)','backgroundColor':'rgba(0, 0, 0, 0.03)',
+              'minHeight':'300px', 'minWidth':'300px', 'marginTop':'5px'}} >
+                <DonutChart value={data[1]} />
+            </div>
+          </div>
+        </div>
       </div>
       <div className='mt-4'>
         <Table value={data}/>
