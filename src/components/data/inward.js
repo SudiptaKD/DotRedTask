@@ -18,7 +18,7 @@ export const data = [
     "phone": "+1 (871) 431-2872",
     "address": "397 Sackett Street, Datil, Louisiana, 9650",
     "about": "Dolore sit sunt nostrud minim minim do id do labore mollit. Laboris aliquip ad voluptate proident. Tempor fugiat cupidatat ullamco veniam id. Officia consectetur sint ea consectetur exercitation cillum tempor excepteur excepteur dolore. Aliqua in ipsum pariatur labore eu nisi ut dolor ut quis incididunt laborum est. Tempor elit eiusmod commodo consequat anim ea occaecat elit sit excepteur aliqua do.\r\n",
-    "registered": "2016-09-23T08:26:23-06:00",
+    "registered": "2022-04-01T08:26:23-06:00",
     "latitude": 25.406973,
     "longitude": 35.727814,
     "tags": [
@@ -66,7 +66,7 @@ export const data = [
     "phone": "+1 (968) 472-3780",
     "address": "861 Farragut Road, Rosburg, New Hampshire, 3708",
     "about": "Tempor irure ea elit labore. In eu mollit deserunt et elit non reprehenderit consequat occaecat excepteur ea. Enim cupidatat fugiat elit adipisicing exercitation nisi consequat cupidatat irure incididunt quis qui proident velit. Adipisicing culpa pariatur Lorem commodo in eu proident commodo occaecat Lorem id et. Enim ad eiusmod pariatur do id ut dolore magna dolor est nulla culpa excepteur.\r\n",
-    "registered": "2016-01-06T05:25:42-06:00",
+    "registered": "2022-04-07T05:25:42-06:00",
     "latitude": -23.121864,
     "longitude": 98.507351,
     "tags": [
@@ -114,7 +114,7 @@ export const data = [
     "phone": "+1 (987) 426-3914",
     "address": "205 Clermont Avenue, Falmouth, Utah, 577",
     "about": "Magna cillum quis aliqua sit tempor eu non incididunt dolor anim proident amet nisi non. Ad Lorem incididunt qui labore. Irure fugiat sit incididunt mollit et. Cupidatat ad deserunt irure irure. Et tempor eiusmod Lorem nostrud nisi. Tempor ut duis cillum mollit exercitation ad reprehenderit duis.\r\n",
-    "registered": "2014-06-07T05:53:25-06:00",
+    "registered": "2022-04-12T05:53:25-06:00",
     "latitude": 62.189819,
     "longitude": -32.547996,
     "tags": [
@@ -162,7 +162,7 @@ export const data = [
     "phone": "+1 (889) 519-3386",
     "address": "796 Tampa Court, Welch, Texas, 6144",
     "about": "Consequat exercitation consectetur sit enim est nostrud. Amet voluptate exercitation reprehenderit minim. Tempor aute sint do adipisicing nostrud occaecat magna esse. Ea id minim in irure non aliquip est anim aute enim anim. Duis non dolore ut ipsum cillum consequat velit excepteur. Deserunt pariatur exercitation incididunt commodo sunt aliqua enim quis non commodo.\r\n",
-    "registered": "2014-01-02T06:45:22-06:00",
+    "registered": "2022-04-18T06:45:22-06:00",
     "latitude": 86.184008,
     "longitude": -96.198918,
     "tags": [
@@ -210,7 +210,7 @@ export const data = [
     "phone": "+1 (853) 475-2585",
     "address": "271 Glenwood Road, Greensburg, Minnesota, 1037",
     "about": "Qui ipsum eiusmod tempor excepteur. Esse ullamco cillum do exercitation ad. Laboris laboris consequat sunt est adipisicing laborum veniam cupidatat. Ea id nisi labore et exercitation quis officia elit irure minim id magna voluptate proident. Reprehenderit quis elit nisi aute aliquip in deserunt cillum quis ad id fugiat amet ea. Non ipsum sit sint ullamco culpa culpa duis.\r\n",
-    "registered": "2018-04-18T05:32:32-06:00",
+    "registered": "2022-04-24T05:32:32-06:00",
     "latitude": -34.204012,
     "longitude": -90.146044,
     "tags": ["commodo", "do", "non", "excepteur", "proident", "sit", "laborum"],
@@ -250,7 +250,7 @@ export const data = [
     "phone": "+1 (856) 578-2106",
     "address": "560 Hanover Place, Coinjock, American Samoa, 7487",
     "about": "Exercitation irure eu minim ipsum do veniam adipisicing culpa irure. Fugiat tempor aliqua sint non officia anim sit exercitation deserunt nostrud velit laboris. Sint cillum tempor duis ut aute consectetur laboris fugiat est. Excepteur enim ad labore enim pariatur mollit officia sint nisi in minim qui. Veniam minim cupidatat adipisicing sunt adipisicing et ea officia ex labore officia consectetur quis. Veniam sint fugiat exercitation nostrud ipsum consequat et est qui irure.\r\n",
-    "registered": "2019-06-18T01:11:09-06:00",
+    "registered": "2022-04-30T01:11:09-06:00",
     "latitude": -4.329657,
     "longitude": -131.056555,
     "tags": ["ipsum", "veniam", "tempor", "irure", "labore", "eu", "aliqua"],

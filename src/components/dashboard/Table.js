@@ -76,23 +76,7 @@ export const Table = ({value}) => {
                     </th>
                     <th scope="col" >
                         <div className='d-flex justify-content-between' >
-                            <h6 style={{fontSize:'14px'}}>Contact number</h6>
-                            <div className='d-flex  align-items-center'>
-                                <img  src={DOTS} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
-                            </div>
-                        </div> 
-                    </th>
-                    <th scope="col" >
-                        <div className='d-flex justify-content-between' >
-                            <h6 style={{fontSize:'14px'}}>Delivery Address</h6>
-                            <div className='d-flex  align-items-center'>
-                                <img  src={DOTS} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
-                            </div>
-                        </div> 
-                    </th>
-                    <th scope="col" >
-                        <div className='d-flex justify-content-between' >
-                            <h6 style={{fontSize:'14px'}}>Order Content</h6>
+                            <h6 style={{fontSize:'14px'}}>Color</h6>
                             <div className='d-flex  align-items-center'>
                                 <img  src={DOTS} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
                             </div>
@@ -140,19 +124,25 @@ export const Table = ({value}) => {
                     </th>
                 </tr>
             </thead>
-            <tbody style={{'maxHeight':'100px','overflowY':'scroll'}} className="scrollspy-example" tabindex="0">
+            <tbody style={{'maxHeight':'100px','overflowY':'scroll', 'fontSize':'14px'}} className="scrollspy-example" tabindex="0">
                 {value.map(data => {
                     return  <tr key={data._id}>
                                 <th scope="row">{formatDate(data.registered)}</th>
                                 <td>{data._id}</td>
-                                <td>{data.status}</td>
+                                <td>
+                                    <div className="card fw-bold text-white text-center  mb-2" 
+                                        style={{"min-width": "2rem","min-height": "1rem", 
+                                        'backgroundColor':`${(data.status === "pending") ? "#e63939": "#45e639"}` }}>
+                                        <div className="card-header">{data.status}</div>
+                                    </div>
+                                </td>
                                 <td>{data.name}</td>
-                                <td>{data.phone}</td>
-                                <td>{data.address}</td>
-                                <td>{data.tags.map(i=>{
-                                    // eslint-disable-next-line no-useless-concat
-                                    return `${i}`+' '
-                                })}</td>
+                                <td>
+                                    <div className="card fw-bold text-white text-center  mb-2" 
+                                        style={{"min-width": "2rem","min-height": "1rem", 'backgroundColor':`${data.eyeColor}`}}>
+                                        <div className="card-header">{data.eyeColor}</div>
+                                    </div>
+                                </td>
                                 <td>{formatDate(data.registered)}</td>
                                 <td>{data.location}</td> 
                                 <td>{data.age}</td>
