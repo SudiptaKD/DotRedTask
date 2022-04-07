@@ -18,7 +18,7 @@ export const data = [
     "phone": "+1 (871) 431-2872",
     "address": "397 Sackett Street, Datil, Louisiana, 9650",
     "about": "Dolore sit sunt nostrud minim minim do id do labore mollit. Laboris aliquip ad voluptate proident. Tempor fugiat cupidatat ullamco veniam id. Officia consectetur sint ea consectetur exercitation cillum tempor excepteur excepteur dolore. Aliqua in ipsum pariatur labore eu nisi ut dolor ut quis incididunt laborum est. Tempor elit eiusmod commodo consequat anim ea occaecat elit sit excepteur aliqua do.\r\n",
-    "registered": "2022-04-01T08:26:23-06:00",
+    "registered": "2022-04-02T08:26:23-06:00",
     "latitude": 25.406973,
     "longitude": 35.727814,
     "tags": [
@@ -250,7 +250,7 @@ export const data = [
     "phone": "+1 (856) 578-2106",
     "address": "560 Hanover Place, Coinjock, American Samoa, 7487",
     "about": "Exercitation irure eu minim ipsum do veniam adipisicing culpa irure. Fugiat tempor aliqua sint non officia anim sit exercitation deserunt nostrud velit laboris. Sint cillum tempor duis ut aute consectetur laboris fugiat est. Excepteur enim ad labore enim pariatur mollit officia sint nisi in minim qui. Veniam minim cupidatat adipisicing sunt adipisicing et ea officia ex labore officia consectetur quis. Veniam sint fugiat exercitation nostrud ipsum consequat et est qui irure.\r\n",
-    "registered": "2022-04-30T01:11:09-06:00",
+    "registered": "2022-04-29T01:11:09-06:00",
     "latitude": -4.329657,
     "longitude": -131.056555,
     "tags": ["ipsum", "veniam", "tempor", "irure", "labore", "eu", "aliqua"],
