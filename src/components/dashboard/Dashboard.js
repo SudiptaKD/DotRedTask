@@ -29,7 +29,6 @@ export const Dashboard = ({data}) => {
       locations={generateLocationForDropdown()}
       />
       <div className='row'>
-        <div className="col-6">
           <div className='d-flex flex-row mt-2 mb-2' style={{'marginLeft':'10px'}}>
             <button type="submit" className="btn btn-primary" 
               style={{'color':'white', 'marginRight':'10px', 'height':'35px'}} >
@@ -45,7 +44,6 @@ export const Dashboard = ({data}) => {
               <input className="form-control"  type="search" placeholder="Search order details"
                   style={{'color':'white', 'height':'35px', 'backgroundColor':'lightgreen'}}  />
             </div>
-          </div>
         </div> 
       </div>
       <div className='mt-2'>
