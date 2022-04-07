@@ -1,6 +1,6 @@
 export const data = [
   {
-    "_id": "111111",
+    "_id": "11",
     "index": 0,
     "guid": "b771030b-65ba-4abc-b213-13e8233915e3",
     "isActive": false,
@@ -48,7 +48,7 @@ export const data = [
     "favoriteFruit": "apple"
   },
   {
-    "_id": "111112",
+    "_id": "22",
     "index": 1,
     "guid": "2e487e80-7294-43ff-a00a-0a6425708126",
     "isActive": true,
@@ -96,7 +96,7 @@ export const data = [
     "favoriteFruit": "banana"
   },
   {
-    "_id": "111113",
+    "_id": "33",
     "index": 2,
     "guid": "e2b5090f-f0c1-4fd6-a588-3487688ea97f",
     "isActive": true,
@@ -144,7 +144,7 @@ export const data = [
     "favoriteFruit": "apple"
   },
   {
-    "_id": "111114",
+    "_id": "44",
     "index": 3,
     "guid": "8031a102-ff3b-4253-94bd-1f0587ce6fad",
     "isActive": false,
@@ -192,7 +192,7 @@ export const data = [
     "favoriteFruit": "banana"
   },
   {
-    "_id": "111115",
+    "_id": "55",
     "index": 4,
     "guid": "d411394b-47e8-424c-aeb0-0db0f8c2ba0b",
     "isActive": true,
@@ -232,7 +232,7 @@ export const data = [
     "favoriteFruit": "banana"
   },
   {
-    "_id": "111116",
+    "_id": "66",
     "index": 5,
     "guid": "56aadf9b-9867-4482-9e6e-79c77ce0fdd4",
     "isActive": false,
