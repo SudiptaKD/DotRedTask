@@ -139,6 +139,7 @@ export const GridData = ({value}) => {
                                 <td>{data.phone}</td>
                                 <td>{data.address}</td>
                                 <td>{data.tags.map(i=>{
+                                    // eslint-disable-next-line no-useless-concat
                                     return `${i}`+' '
                                 })}</td>
                                 <td>{formatDate(data.registered)}</td>
