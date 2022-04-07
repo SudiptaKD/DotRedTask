@@ -18,10 +18,12 @@ export default function Header() {
             <Button size="sm" variant='secondary' style={{'marginRight':'4px'}}>
               <img src={LIST} alt="list" style={{'width':'20px', 'height':'20px'}} />
             </Button>{' '}
-            <Button size="sm" variant='warning'>
-              <img src={ApiArchive} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
-              {' '} API Status
-            </Button>
+            <Link to="/" style={{'textDecoration':'none'}}>
+              <Button size="sm" variant='warning'>
+                <img src={ApiArchive} alt="apiArchive" style={{'width':'20px', 'height':'20px'}} />
+                {' '} Home Page 
+              </Button>
+            </Link>
           </Col>
           <Col className=' d-flex justify-content-center' lg={8}>
             <Link to="/dashboard" style={{'textDecoration':'none'}}>

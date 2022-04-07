@@ -57,9 +57,10 @@ export const Inward = ({data}) => {
         </>
       )}
       {!ifFound && 
-        <h2 className='d-flex  justify-content-center  mt-10' style={{'marginTop':'80px'}} >
-          This Sheet Number doesn't exists in Database
-        </h2>
+          <header className='d-flex align-items-center justify-content-center' style={{'width':'70%', 'backgroundColor':'#e84307',
+            'minHeight':'45px', 'borderRadius':'4px', 'color': 'white', 'padding':'auto', 'margin':'80px auto '}}>
+            <h5>This Sheet Number doesn't exists in Databases</h5>
+          </header>
       }
     </Container>
   )
